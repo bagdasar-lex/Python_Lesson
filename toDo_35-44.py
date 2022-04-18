@@ -58,6 +58,6 @@ peopleCount = int(input("How many person you want to invite?:"))
 if peopleCount < 10:
     for i in range(0, peopleCount):
         name = input("Enter name to invite: ")
-        print(name, "Has been invite! ")
+        print(name, "Has been invite!")
 else:
     print("To many person!!!")
